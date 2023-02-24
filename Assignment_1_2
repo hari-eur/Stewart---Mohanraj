@@ -1,0 +1,2 @@
+write a c program to to add two integers and print the result in float . one integer should be a variable with name "Break" and the other should be a constant with name "Continue" and then give reason why break and continue cannot be used as variable names.
+write a c program to print the number from n to 1 and at the same time calculate their sum and compare it 22 to say which is bigger and print the sum as odd or even using ternary operator.

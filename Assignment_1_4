@@ -1,0 +1,2 @@
+Write a program which continuously reads a number from user until 99 is entered, if number is not 99 then find the factorial of the number.
+Find all the palindrome from 1000 to 2000, then calculate their sum and find whether the sum is prime or not.

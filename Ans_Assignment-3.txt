@@ -1,0 +1,78 @@
+1.
+
+Code:
+#include <stdio.h>
+
+int main() {
+int a,b,c,d;
+scanf("%d",&a);
+// right shift
+b=a>>2;
+printf("Right shift by 2 places: %d",b);
+//two's complement
+c=~b+1;
+printf("\nTwo's Complement of %d is %d",b,c);
+//left shift
+d=c<<4;
+printf("\nLeft shift by 4 places %d",d);
+return 0;
+}
+________________________________________________________________________________
+2.
+
+Code:
+#include <stdio.h>
+
+int main() {
+int a,b;
+int c;
+scanf("%d%d",&a,&b);
+printf("\n1. Addition,\n2. Subtraction,\n3. Multiplication,\n4. Division\n");
+scanf("%d",&c);
+switch(c){
+case 1:
+printf("Sum of %d and %d is %d", a,b,a+b);
+break;
+case 2:
+printf("Difference of %d and %d is %d", a,b,a-b);
+break;
+case 3:
+printf("Product of %d and %d is %d", a,b,a*b);
+break;
+case 4:
+printf("Result of %d / %d is %d", a,b,a/b);
+break;
+}
+return 0;
+}
+________________________________________________________________________________
+3.
+
+Code:
+#include <stdio.h>
+int lpyr(int x){
+
+if(((x%400 == 0)||(x%4==0))&&(x%100 !=0)){
+    printf("\n%d is a leap year",x);
+    return 1;
+}
+else{
+    printf("\n%d is not a leap year",x);
+    return 0;
+    }
+}
+int main() {
+int a,b,c,d,s=0;
+scanf("%d%d%d",&a,&b,&c);
+s=lpyr(a);
+s+=lpyr(b);
+s+=lpyr(c);
+
+if(s>1){
+    d=(a<b)?(a<c?a:c):(b<c?b:c);
+    printf("\nSmallest leap year = %d",d);
+}
+
+return 0;
+}
+________________________________________________________________________________

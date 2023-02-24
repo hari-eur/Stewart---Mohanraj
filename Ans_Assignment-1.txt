@@ -1,0 +1,53 @@
+ANSWERS:
+
+1.
+Pros of C:
+C is easy to learn and implement.
+It has numerous library functions
+Fast execution speed
+Cons of C:
+Less level of data abstraction
+Lack of OOPs concept
+No exception handling
+________________________________________________________________________________
+2.
+C than python:
+C is faster to execute than python.
+In C, we have declaration of the datatype of a variable, which is not present in Python.
+________________________________________________________________________________
+3.
+Object file:
+      Object file is the file that is obtained as the output of the assembler. It has the binary contents for further processing.
+________________________________________________________________________________
+4.
+Commands:
+
+mkdir NEW
+cd NEW
+touch file{1..5}.txt
+vi file1.txt
+// write the features of c and save and quit using ':wq'
+echo 'historical development of C' >> file1.txt
+cat file1.txt file2.txt > file3.txt
+mv file4.txt ../
+mv file5.txt file6.txt
+ls
+du // prints the disk usage of current directory.
+________________________________________________________________________________
+5.
+Datatypes:
+a. character array
+b. int, short, long
+c. float, double
+d. char
+e. long
+f. int, long
+g. integer or float array
+h. pointer
+i. structure
+________________________________________________________________________________
+6.
+a. public
+b. protected
+c. private
+________________________________________________________________________________

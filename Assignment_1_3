@@ -1,0 +1,3 @@
+Write a c program to move the number by two bits to the right, then take the compliment of the number and left shift the number by 4 digits.
+Write a c program which reads three inputs from the user, two input numbers and third is the arithmetic operator. perform the operation with the two numbers and print the result.
+Write a program to read three years as input and find whether the given years are leap year or not, if there are more than one leap year, print the lowest of the three.

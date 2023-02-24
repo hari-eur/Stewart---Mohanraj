@@ -1,0 +1,28 @@
+1)  Pros and cons of C?
+2)  why C is preferred than python?
+3)  what is an object file (.obj)?
+4)  perform the following operations with basic linux commands
+     a) create a new directory with name "NEW"
+     b) create 5 new files inside that directory with name file1 and so ?
+     c) write the features of c in file1 using vi editor?
+     d) write about the historical development of c using "echo" command?
+     e) use CAT command to combine file1 & file2 and write it in file3?
+     f)  move file4 outside current directory
+     g) rename file5 as file6
+     h) list all the files in the NEW directory
+     i)  find the size of NEW directory
+     j)  check whether file6 exists in NEW directory
+5)  Suggest the possible datatype's for the following:
+     a) EMBEDUR2023
+     b) 2022
+     c)  20.21
+     d)  m
+     e)  9003311417
+     f) 70000
+     g) height of 100 students
+     h) to store another variable address
+     i)  to store employee details
+6) write the suitable access modifier for each case:
+    a) wanted to access completely in the project without any restrictions
+    b) can be accessed by derived class
+    c) cannot be accessed outside the respective class in which it is defined

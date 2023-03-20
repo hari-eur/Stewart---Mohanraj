@@ -1,0 +1,14 @@
+1. Macro
+
+#include <stdio.h>
+#define print(fmt, ...) printf(fmt, ##__VA_ARGS__)
+main() 
+{
+  char data[] = "Training Program";
+  char data_1[] = "Engineer";
+  char data_2[] = "EmbedUR";
+  print("Campus %s\n", data);
+  print("Hello %s: Welcome to %s\n", data_1, data_2);
+}
+______________________________________________________________________
+
